@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ͼ - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\LENOVO\AppData\Local\Temp\RSP3416.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/ͼ.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VC\Microsoft Visual Studio\MyProjects\ͼ\ͼ1.cpp"
+]
+Creating command line "cl.exe @C:\Users\LENOVO\AppData\Local\Temp\RSP3416.tmp" 
+<h3>Output Window</h3>
+Compiling...
+ͼ1.cpp
+D:\VC\Microsoft Visual Studio\MyProjects\ͼ\ͼ1.cpp(27) : error C2059: syntax error : '{'
+D:\VC\Microsoft Visual Studio\MyProjects\ͼ\ͼ1.cpp(27) : error C2143: syntax error : missing ';' before '{'
+D:\VC\Microsoft Visual Studio\MyProjects\ͼ\ͼ1.cpp(27) : error C2143: syntax error : missing ';' before '}'
+D:\VC\Microsoft Visual Studio\MyProjects\ͼ\ͼ1.cpp(32) : error C2065: 'LocateVex' : undeclared identifier
+D:\VC\Microsoft Visual Studio\MyProjects\ͼ\ͼ1.cpp(51) : error C2143: syntax error : missing ';' before '}'
+D:\VC\Microsoft Visual Studio\MyProjects\ͼ\ͼ1.cpp(54) : error C2373: 'LocateVex' : redefinition; different type modifiers
+D:\VC\Microsoft Visual Studio\MyProjects\ͼ\ͼ1.cpp(68) : error C2146: syntax error : missing ';' before identifier 'printf'
+ִ�� cl.exe ʱ����.
+
+
+
+<h3>Results</h3>
+ͼ1.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
